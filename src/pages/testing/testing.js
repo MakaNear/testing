@@ -7,8 +7,8 @@ export async function main() {
     loadComponent("header.topbar", url.components.topbar + "topbar.html"),
     loadComponent("aside.sidebar", url.components.sidebar + "sidebar.html"),
     loadComponent(
-      ".testing main.content",
-      url.pages.testing + "testing.html"
+      "main.testing section.content",
+      url.pages.testing + "content/content.html"
     ),
     loadComponent("footer.footer", url.components.footer + "footer.html"),
   ];
