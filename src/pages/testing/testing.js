@@ -19,6 +19,7 @@ export async function main() {
       console.log(url.components.topbar + "topbar.html");
       console.log(url.components.sidebar + "sidebar.html");
       console.log(url.components.testing + "content/content.html");
+      console.log(url.components.footer + "footer.html");
     })
     .catch((error) => {
       console.error("Error loading components:", error);
